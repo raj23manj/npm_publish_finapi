@@ -1,6 +1,6 @@
 {
-    "name": "rajesh/finapi",
-    "version": "1.0.0",
+    "name": "rajesh_finapi",
+    "version": "1.0.2",
     "description": "",
     "directories": {
         "lib": "lib"
@@ -14,7 +14,7 @@
         "build": "npm run clean && rollup -c rollup.config.ts",
         "build-tsc": "npm run clean && tsc",
         "clean": "del ./build/",
-        "prepublish:public": "npm run build && npm run bump-version",
+        "prepublish:public": "npm run build",
         "publish:public": "npm publish --access public"
     },
     "repository": {
